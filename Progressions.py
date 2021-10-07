@@ -40,5 +40,5 @@ pre_chorus = Progression("pre_chorus", 'C', [line2, line2])
 chorus = Progression("chorus", 'C', [line3, line3, line4, line4])
 outro = Progression("outro", 'C', [line1])
 
-song = Song("All of me", )
+song = Song("All of me", [intro, verse, pre_chorus, chorus, outro], [intro.name, verse.name, pre_chorus.name, chorus.name, verse.name, pre_chorus.name, chorus.name, pre_chorus.name,outro.name] )
 
